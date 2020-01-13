@@ -368,7 +368,7 @@ class DNA_GUI(QtWidgets.QMainWindow):
 		self.concentration.setValue(0.5)
 		self.salt_conc.setValue(50.0)
 
-		self.Input_text.setPlaceholderText(_translate("DNA_Tools", ">Input sequence i.e. ATG or atg (or paste with ctrl + v)"))
+		self.Input_text.setPlaceholderText(_translate("DNA_Tools", ">Input sequence i.e. ATG or atg (or paste with ctrl/cmnd + v)"))
 		self.submit_button.setText(_translate("DNA_Tools", "Submit"))
 		self.reset_button.setText(_translate("DNA_Tools", "Reset"))
 		self.micro_molar.setText(_translate("DNA_Tools", "[oligo] μM"))
@@ -379,10 +379,10 @@ class DNA_GUI(QtWidgets.QMainWindow):
 		self.nn_primer_input.setPlaceholderText(_translate("DNA_Tools", ">Input primer sequence"))
 		self.nn_primer_output.setPlaceholderText(_translate("DNA_Tools", "Primer info (i.e. Tm˚c, %GC, etc) displayed here"))
 		self.notify.setText(_translate("DNA_Tools", "RESULTS IN OUTPUT TAB"))
-		self.input_M1.setPlaceholderText(_translate("DNA_Tools", "M1"))
-		self.input_V1.setPlaceholderText(_translate("DNA_Tools", "V1"))
-		self.input_M2.setPlaceholderText(_translate("DNA_Tools", "M2"))
-		self.input_V2.setPlaceholderText(_translate("DNA_Tools", "V2"))
+#		self.input_M1.setPlaceholderText(_translate("DNA_Tools", "M1"))
+#		self.input_V1.setPlaceholderText(_translate("DNA_Tools", "V1"))
+#		self.input_M2.setPlaceholderText(_translate("DNA_Tools", "M2"))
+#		self.input_V2.setPlaceholderText(_translate("DNA_Tools", "V2"))
 		
 		self.input_ouput_tabs.setTabText(self.input_ouput_tabs.indexOf(self.Tab1), _translate("DNA_Tools", "DNA Tool (Input)"))
 		self.input_ouput_tabs.setTabText(self.input_ouput_tabs.indexOf(self.Tab2), _translate("DNA_Tools", "~Empty~"))
