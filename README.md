@@ -12,3 +12,7 @@ and dilution calculators.
 *Citations for Nearest-Neighbor at bottom of PRIMER-TOOLS.py module
 
 *Future Plans: Create an installer that will allow the use of GUI without OS/Python Library bindings..
+
+# Requirements:
+Python >3.7
+PyQT5 (QtWidgets, etc)
