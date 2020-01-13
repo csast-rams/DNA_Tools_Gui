@@ -9,4 +9,4 @@ Primer analysis (using nearest neighbor),
 as well as a reference codon table,
 and dilution calculators.
 
-# Citations for Nearest-Neighbor at bottom of PRIMER-TOOLS.py module
+*Citations for Nearest-Neighbor at bottom of PRIMER-TOOLS.py module
