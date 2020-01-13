@@ -1,6 +1,8 @@
-# By: Cooper Ast
-Uploaded: 1/12/2019
+# By: Cooper Ast (1/12/2019)
+Last Edited: 1/12/2019
+
 Purpose: Create a simple GUI for performing DNA/Lab calculations within a single, easy-to-navigate application.
+
 [Adapted From Galileo Repo]
 
 # DNA_Tools_Gui
