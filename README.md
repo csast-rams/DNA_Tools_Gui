@@ -14,5 +14,4 @@ and dilution calculators.
 *Future Plans: Create an installer that will allow the use of GUI without OS/Python Library bindings..
 
 # Requirements:
-Python >3.7 \n
-PyQT5 (QtWidgets, etc)
+Python >3.7, PyQT5 (QtWidgets, etc)
